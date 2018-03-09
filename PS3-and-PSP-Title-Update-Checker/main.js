@@ -36,7 +36,7 @@ function SceGameGetUpdatePkgUrl(){
 
 	var TitleId = id_titleid.value;
 
-	var Ps3AndPspGameUpdatePkgUri = not_secure_a0_psn_np + TitleId + "/" + TitleId + version;
+	var Ps3AndPspGameUpdatePkgUri = secure_a0_psn_np + TitleId + "/" + TitleId + version;
 
 	id_output.innerHTML = "<a href=\"" + Ps3AndPspGameUpdatePkgUri + "\">" + Ps3AndPspGameUpdatePkgUri + "</a>";
 
