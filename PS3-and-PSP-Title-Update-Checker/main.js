@@ -6,7 +6,7 @@ var id_output;
 
 var version = "-ver.xml";
 var secure_a0_psn_np = "https://a0.ww.np.dl.playstation.net/tpl/np/";
-var not_secure_a0_psn_np = "https://a0.ww.np.dl.playstation.net/tpl/np/";
+var not_secure_a0_psn_np = "http://a0.ww.np.dl.playstation.net/tpl/np/";
 
 
 function ScePageLoad(){
